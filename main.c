@@ -4,6 +4,13 @@
 
 // This is where you add the function calculate_hypotenuse
 
+float calculate_hypotenuse(float cat1, float cat2){
+    float hypotenuse;
+
+
+
+}
+
 int main() {
     float a = 3.0;
     float b = 4.0;
