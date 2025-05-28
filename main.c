@@ -4,11 +4,16 @@
 
 // This is where you add the function calculate_hypotenuse
 
-float calculate_hypotenuse(float cat1, float cat2){
-    float hypotenuse;
+float calculate_hypotenuse(float leg1, float leg2){
+    
+    // Raise each leg to second power 
+    leg1 = pow(leg1, 2);
+    leg2 = pow(leg2, 2);
 
+    // Pythagorean theorem
+    float hypotenuse = sqrt(leg1 + leg2);
 
-
+    return hypotenuse;
 }
 
 int main() {
